@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -569,4 +569,576 @@
     <script src="/lib/bootstrap.bundle.min.js"></script>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sant Bar</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fw-semibold fs-2">Sant Bar</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"><span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-bar" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o Sant Bar
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true" data-bs-wrap="true">
+        <section id="sobre-o-bar">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="/images/slides/carousel-1.png" alt="Amigos bebendo">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/images/slides/carousel-2.png" alt="servindo chopp">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/images/slides/carousel-3.png" alt="Amigos bebendo">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/images/slides/carousel-4.png" alt="Bebendo no balcão">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/images/slides/carousel-5.png" alt="Porções variadas">
+                    </div>
+                </div>
+                <button data-bs-target="#carousel" data-bs-slide="prev" type="button" class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel" data-bs-slide="next" type="button" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="/images/sobre-o-bar.png" class="d-block w-100 rounded" alt="Foto do ambiente">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title fs-3 fw-semibold">Sobre o <span class="text-colored">Sant
+                                    Bar</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim ipsa expedita optio aut
+                                tempora hictus as possimus corrupti! Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                            </p>
+                            <h3 class="section-title fs-3 fw-semibold">Sobre <span class="text-colored">o espaço</span>
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quisquam accusantium
+                                aliquid culpa, itaque inventore adipisci facere. Exercitationem, tempore.
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title fs-2 fw-semibold text-center">Eventos da semana no <span
+                            class="text-colored">Sant Bar</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="/images/eventos/promo-de-porcoes.jpg" alt="Promoção de porções"
+                            class="d-block w-100 rounded mb-2 card-img-top">
+                        <h3 class="section-title text-colored fs-5 fw-semibold">
+                            <i class="bi bi-inbox-fill"></i>
+                            Quarta das Porções
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi dolores iste culpa tenetur
+                            exercitationem quo possimus nesciunt quam distinctio, laborum ipsam. Nisi vero hic natus
+                            fugiat facilis sequi quasi libero?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/images/eventos/show-ao-vivo.png" alt="Show ao vivo"
+                            class="d-block w-100 rounded mb-2 card-img-top">
+                        <h3 class="section-title text-colored fs-5 fw-semibold">
+                            <i class="bi bi-mic-fill"></i>
+                            Sexta tem show ao vivo
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi dolores iste culpa tenetur
+                            exercitationem quo possimus nesciunt quam distinctio, laborum ipsam. Nisi vero hic natus
+                            fugiat facilis sequi quasi libero?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/images/eventos/chopp-em-dobro.jpg" alt="Chopp em dobro"
+                            class="d-block w-100 rounded mb-2 card-img-top">
+                        <h3 class="section-title text-colored fs-5 fw-semibold">
+                            <i class="bi bi-cup-straw"></i>
+                            Sábado tem Chopp em dobro
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi dolores iste culpa tenetur
+                            exercitationem quo possimus nesciunt quam distinctio, laborum ipsam. Nisi vero hic natus
+                            fugiat facilis sequi quasi libero?
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title fs-2 fw-semibold text-center mb-5">Nosso <span
+                            class="text-colored">Cardápio</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button data-bs-toggle="tab" data-bs-target="#bebidas-alcolicas" type="button"
+                                class="fw-bold text-start nav-link text-colored active">
+                                Bebidas alcólicas
+                            </button>
+                            <button data-bs-toggle="tab" data-bs-target="#bebidas-nao-alcolicas" type="button"
+                                class="fw-bold text-start nav-link text-colored">Bebidas não alcólicas
+                            </button>
+                            <button data-bs-toggle="tab" data-bs-target="#porcoes" type="button"
+                                class="fw-bold text-start nav-link text-colored">Porções
+                            </button>
+                            <button data-bs-toggle="tab" data-bs-target="#lanches" type="button"
+                                class="fw-bold text-start nav-link text-colored">Lanches
+                            </button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-alcolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-alcolicas/chopp apa.png" class="w-100"
+                                            alt="Chopp apa">
+                                        <h5 class="text-colored mt-2">Chopp Apa</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-alcolicas/chopp ipa.png" class="w-100"
+                                            alt="Chopp ipa">
+                                        <h5 class="text-colored mt-2">Chopp Ipa</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-alcolicas/chopp lager.png" class="w-100"
+                                            alt="Chopp lager">
+                                        <h5 class="text-colored mt-2">Chopp Lager</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-alcolicas/chopp pilsen.png" class="w-100"
+                                            alt="Chopp pilsen">
+                                        <h5 class="text-colored mt-2">Chopp Pilsen</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-alcolicas/chopp stout.png" class="w-100"
+                                            alt="Chopp stout">
+                                        <h5 class="text-colored mt-2">Chopp Stout</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-alcolicas/chopp weiss.png" class="w-100"
+                                            alt="Chopp weiss">
+                                        <h5 class="text-colored mt-2">Chopp Weiss</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-alcolicas/chopp Witbier.png" class="w-100"
+                                            alt="Chopp wiltbier">
+                                        <h5 class="text-colored mt-2">Chopp Wiltbier</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-alcolicas/cerveja eisenbahn.png"
+                                            class="w-100" alt="Cerveja eisenbahn">
+                                        <h5 class="text-colored mt-2">Cerveja Eisenbahn - 600ml</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-alcolicas/cerveja heineken.png" class="w-100"
+                                            alt="Cerveja heineken">
+                                        <h5 class="text-colored mt-2">Cerveja Heineken - 600ml</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-alcolicas/cerveja original.png" class="w-100"
+                                            alt="Cerveja original">
+                                        <h5 class="text-colored mt-2">Cerveja Original - 600ml</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-alcolicas/cerveja spaten.png" class="w-100"
+                                            alt="Cerveja spaten">
+                                        <h5 class="text-colored mt-2">Cerveja Spaten - 600ml</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-nao-alcolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-sem-alcool/coca-cola.png" class="w-100"
+                                            alt="Coca cola">
+                                        <h5 class="text-colored mt-2">Coca-cola</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-sem-alcool/guarana.png" class="w-100"
+                                            alt="guarana">
+                                        <h5 class="text-colored mt-2">Guarana Antartica</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-sem-alcool/cha-gelado-artesanal.jpg"
+                                            class="w-100" alt="cha gelado artesanal">
+                                        <h5 class="text-colored mt-2">Chá Gelado Artesanal</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-sem-alcool/suco-abacaxi-hortela.jpg"
+                                            class="w-100" alt="suco de abacaxi com hortelã">
+                                        <h5 class="text-colored mt-2">Suco Abacaxí com Hortelã</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-sem-alcool/suco-laranja.jpg" class="w-100"
+                                            alt="suco de laranja">
+                                        <h5 class="text-colored mt-2">Suco de Laranja</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-sem-alcool/suco-morango.png" class="w-100"
+                                            alt="suco de morango">
+                                        <h5 class="text-colored mt-2">Suco de Morango</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-sem-alcool/agua-com-gas.png" class="w-100"
+                                            alt="água com gás">
+                                        <h5 class="text-colored mt-2">Água com gás</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/bebidas-sem-alcool/agua-sem-gas.jpg" class="w-100"
+                                            alt="água sem gás">
+                                        <h5 class="text-colored mt-2">Água sem Gás</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="porcoes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/porcoes/porcao-batata.jpg" class="w-100"
+                                            alt="porção batata frita">
+                                        <h5 class="text-colored mt-2">Batata Frita</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/porcoes/porcao-frango-a-passarinho.jpg" class="w-100"
+                                            alt="porção frango a passarinho">
+                                        <h5 class="text-colored mt-2">Frango a Pasarinho</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/porcoes/porcao-picanha.jpg" class="w-100"
+                                            alt="porção picanha">
+                                        <h5 class="text-colored mt-2">Porção de Picanha</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/porcoes/porcao-tilapia.jpg" class="w-100"
+                                            alt="porção tilapia">
+                                        <h5 class="text-colored mt-2">Porção de Tilápia</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="lanches">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/lanches/x-burger.png" class="w-100"
+                                            alt="hambúrguer">
+                                        <h5 class="text-colored mt-2">Sant Burguer</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/lanches/x-frango.jpg" class="w-100"
+                                            alt="lanche de frango">
+                                        <h5 class="text-colored mt-2">Sant Frango Grelhado</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cardapio/lanches/veggie-burguer.jpg" class="w-100"
+                                            alt="hambúrguer vegano">
+                                        <h5 class="text-colored mt-2">Sant Veggie Burger</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet sit am consectetur ipa adipisicing elit.
+                                        </p>
+                                        <p>
+                                            R$ 0,00
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5 fs-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fw-semibold fs-2">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form class="form">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored ms-1 me-1"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua Loren Santana nº 1065, Bairro Sant - Pedrinhas Paulista - SP</p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773426.091977786!2d-51.276438054166576!3d-22.542181533771164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce597d462f58ad%3A0x1e5241e2e17b7c17!2sS%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1745564479154!5m2!1spt-BR!2sbr" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+
+>>>>>>> 2222646aed1e49db4fe855a7817d7b179016bcb0
 </html>
